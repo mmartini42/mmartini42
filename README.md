@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Mathis</h1>
 <h3 align="center">A passionate developer and cybersecurity researcher from France.</h3>
-<h4 align="center">I study at<a href="https://www.42lyon.fr/"><img align="center" src="https://img.shields.io/static/v1?style=for-the-badge&message=Lyon&color=000000&logo=42&logoColor=FFFFFF&label=" alt "42Lyon"/></a> school.</h4>
+<h4 align="center">I study at <a href="https://www.42lyon.fr/"><img align="center" src="https://img.shields.io/static/v1?style=for-the-badge&message=Lyon&color=000000&logo=42&logoColor=FFFFFF&label=" alt "42Lyon"/></a> school.</h4>
 
 
 - 📫 How to reach me: **mathismartinipro@gmail.com**.
