@@ -31,7 +31,7 @@ OS:
 </h3>
 <p align="left">
 	<a href="https://www.apple.com/fr/macos/" target="_blank">
-		<img align="center" src="https://img.shields.io/badge/-MACOS_BIG_SUR-C13584?style=for-the-badge&logo=apple&logoColor=white" alt="macos"/>
+		<img align="center" src="https://img.shields.io/badge/-MACOS_MONTEREY-C13584?style=for-the-badge&logo=apple&logoColor=white" alt="macos"/>
 	</a>
   <a href="https://fr.wikipedia.org/wiki/Windows_10" target="_blank">
 		<img align="center" src="https://img.shields.io/badge/-WINDOWS_10-00adef?style=for-the-badge&logo=windows&logoColor=white" alt="windows10"/>
