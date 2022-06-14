@@ -3,7 +3,7 @@
 <h4 align="center">I study at <a href="https://www.42lyon.fr/"><img align="center" src="https://img.shields.io/static/v1?style=for-the-badge&message=Lyon&color=000000&logo=42&logoColor=FFFFFF&label=" alt "42Lyon"/></a> school.</h4>
 
 
-- 📫 How to reach me: **mathismartinipro@gmail.com**.
+- 📫 How to reach me: **contact@mathis-martini.fr**.
 
 <h3 align="left">
 Connect with me:
