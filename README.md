@@ -4,6 +4,7 @@
 
 
 - 📫 How to reach me: **contact@mathis-martini.fr**.
+- 📫 How to reach me: **mathmart@student.42lyon.fr**.
 
 <h3 align="left">
 Connect with me:
