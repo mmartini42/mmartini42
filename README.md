@@ -37,7 +37,7 @@ OS:
   <a href="https://fr.wikipedia.org/wiki/Windows_10" target="_blank">
 		<img align="center" src="https://img.shields.io/badge/-WINDOWS_10-00adef?style=for-the-badge&logo=windows&logoColor=white" alt="windows10"/>
 	</a>
-   <a href="https://www.kali.or)" target="_blank">
+   <a href="https://www.kali.org" target="_blank">
 		<img align="center" src="https://img.shields.io/static/v1?style=for-the-badge&message=Kali+Linux&color=557C94&logo=Kali+Linux&logoColor=FFFFFF&label=" alt="Kali Linux"/>
 	</a>
 </p>
