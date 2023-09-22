@@ -1,0 +1,51 @@
+name: Generate Assets
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: "0 */6 * * *"
+
+jobs:
+  generate-svg:
+    runs-on: ubuntu-latest
+    steps:
+      # Metrics
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          plugin_languages: yes
+          plugin_notable: yes
+          plugin_followup: yes
+          plugin_sponsorships: yes
+          plugin_code: yes
+          plugin_people: yes
+          plugin_people_types: followers
+          plugin_people_limit: 28
+          plugin_people_size: 28
+          plugin_achievements: yes
+          plugin_achievements_threshold: B
+          plugin_achievements_secrets: yes
+          plugin_achievements_limit: 0
+          plugin_habits: yes
+          plugin_habits_from: 400
+          plugin_habits_days: 30
+          plugin_habits_facts: yes
+          config_timezone: Europe/Paris
+      # snk
+      - uses: Platane/snk@v2
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+              dist/github-snake.svg
+              dist/github-snake-dark.svg?palette=github-dark
+
+      - name: push github-snake.svg
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: yes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
